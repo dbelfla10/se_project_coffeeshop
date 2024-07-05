@@ -18,7 +18,7 @@
 }
 
 .recipes__subtitle {
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", "Times New Roman";
   font-size: 20px;
   line-height: 30px;
   padding: 0;
@@ -36,6 +36,7 @@
   width: 480px;
   height: 273px;
   border: 0px;
+  display: block;
 }
 
 .recipes__video-caption {
@@ -46,26 +47,4 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
-}
-
-.reservation {
-  background-color: #d9e7ff;
-  background-image: url(../images/background_reservation.svg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 100px 0 120px;
-}
-
-.reservation__title {
-  margin: 0 auto 80px;
-  text-align: center;
-  padding: 0;
-  font-weight: 500;
-  font-size: 44px;
-  line-height: 52px;
-}
-
-.reservation__form {
-  margin: 0 auto;
 }

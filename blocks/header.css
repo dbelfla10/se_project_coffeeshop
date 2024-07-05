@@ -11,6 +11,8 @@
   padding: 30px 80px 40px;
   display: flex;
   flex-direction: column;
+  position: relative;
+  box-sizing: border-box;
 }
 
 .header__title {
